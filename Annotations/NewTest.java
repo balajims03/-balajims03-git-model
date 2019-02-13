@@ -5,7 +5,7 @@ import org.testng.annotations.Dataprovider;
 public class NewTest extends Annotations {
   @Test(dataprovider="data")
   public void create(string cname,string dname,string ename)
-        create(locateElement("link", "Leads")); 
+       h. create(locateElement("link", "Leads")); 
 		click(locateElement("link", "Create Lead")); 
 		clearAndType(locateElement("id", "createLeadForm_companyName"), "testleaf");
 		clearAndType(locateElement("id", "createLeadForm_firstName"), "balaaji");
